@@ -1,3 +1,23 @@
-img {
+.wrap {
   cursor: zoom-in;
+}
+
+#iv-container {
+  background: rgba(0,0,0,0.8);
+  animation: fadeIn 0.3s ease 0s 1 normal;
+  -webkit-animation: fadeIn 0.3s ease 0s 1 normal;
+}
+
+.iv-close {
+  mix-blend-mode: exclusion;
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0}
+  100% {opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity: 0}
+  100% {opacity: 1}
 }

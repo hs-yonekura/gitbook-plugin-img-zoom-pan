@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-img-zoom-pan",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "engines": {
@@ -11,5 +11,7 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {}
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3"
+  }
 }

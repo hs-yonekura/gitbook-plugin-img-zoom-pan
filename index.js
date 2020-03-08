@@ -1,11 +1,8 @@
+const cheerio = require('cheerio')
 module.exports = {
   book: {
     assets: './assets',
-    css: {
-      website: ['view-bigimg.css', 'view-bigimg-plugin.css']
-    },
-    js: {
-      website: ['view-bigimg.js', 'view-bigimg-plugin.js']
-    }
+    css: ['view-bigimg.css', 'view-bigimg-plugin.css'],
+    js: ['view-bigimg.js', 'view-bigimg-plugin.js']
   }
 }
